@@ -3,6 +3,7 @@ import Counter from "./components/Counter.js";
 import { useState } from "react";
 import Stats from "./components/Stats";
 import HooksCounter from "./components/HooksCounter";
+import DynamicHookCounter from "./components/DynamicHookCounter";
 
 function App() {
   /*
@@ -73,6 +74,7 @@ function App() {
           ))} */}
           <Counter />
           <HooksCounter />
+          <DynamicHookCounter />
         </div>
 
         {/* <Stats count={totalCount()}></Stats> */}

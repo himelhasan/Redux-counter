@@ -4,21 +4,21 @@ const initialState = {
   value: 0,
 };
 
-const counterReducer = (state = initialState, action) => {
+const dynamicCounterReducer = (state = initialState, action) => {
   switch (action.type) {
     case DYNAMIC_INCREMENT:
       return {
         ...state,
-        value: state.value + action.payload.value,
+        value: state.value + action.payload,
       };
     case DYNAMIC_DECREMENT:
       return {
         ...state,
-        value: state.value - action.payload.value,
+        value: state.value - action.payload,
       };
     default:
       return state;
   }
 };
 
-export default counterReducer;
+export default dynamicCounterReducer;
