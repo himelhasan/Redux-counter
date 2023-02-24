@@ -76,7 +76,7 @@ function App() {
           {/* <Counter /> */}
           <HooksCounter />
           <DynamicHookCounter />
-          <VaribaleCounter></VaribaleCounter>
+          <VaribaleCounter dynamic={false}></VaribaleCounter>
           <VaribaleCounter dynamic={true}></VaribaleCounter>
         </div>
 
