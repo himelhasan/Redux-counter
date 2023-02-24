@@ -18,13 +18,13 @@ function DynamicHookCounter() {
       <div className="flex space-x-3">
         <button
           className="bg-indigo-400 text-white px-3 py-2 rounded shadow"
-          onClick={() => incrementHandler(123456789)}
+          onClick={() => incrementHandler(5)}
         >
           Increment
         </button>
         <button
           className="bg-red-400 text-white px-3 py-2 rounded shadow"
-          onClick={() => decrementHandler(123456789)}
+          onClick={() => decrementHandler(5)}
         >
           Decrement
         </button>

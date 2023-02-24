@@ -73,9 +73,10 @@ function App() {
               decrement={decrement}
             ></Counter>
           ))} */}
-          <Counter />
+          {/* <Counter /> */}
           <HooksCounter />
           <DynamicHookCounter />
+          <VaribaleCounter></VaribaleCounter>
           <VaribaleCounter dynamic={true}></VaribaleCounter>
         </div>
 
