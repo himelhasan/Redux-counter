@@ -4,6 +4,7 @@ import { useState } from "react";
 import Stats from "./components/Stats";
 import HooksCounter from "./components/HooksCounter";
 import DynamicHookCounter from "./components/DynamicHookCounter";
+import VaribaleCounter from "./components/VaribaleCounter";
 
 function App() {
   /*
@@ -75,6 +76,7 @@ function App() {
           <Counter />
           <HooksCounter />
           <DynamicHookCounter />
+          <VaribaleCounter dynamic={true}></VaribaleCounter>
         </div>
 
         {/* <Stats count={totalCount()}></Stats> */}

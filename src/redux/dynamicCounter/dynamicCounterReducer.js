@@ -1,7 +1,7 @@
 import { DYNAMIC_DECREMENT, DYNAMIC_INCREMENT } from "./actionsIdentifier";
 
 const initialState = {
-  value: 0,
+  value: 100,
 };
 
 const dynamicCounterReducer = (state = initialState, action) => {
